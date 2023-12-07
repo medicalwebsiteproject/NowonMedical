@@ -1,49 +1,158 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NowonMedical</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/NowonMedical.styles.css" asp-append-version="true" />
+    <title>노원진 통증의학과</title>
+    <link rel="stylesheet" href="~/css/common.css" asp-append-version="true" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NowonMedical</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <div class="header-title-bar">
+            <div class="medical-position">
+                <img class="position-box-children" src="~/assets/images/map-pin-icon.png" />
+                <div class="subway-station position-box-children">
+                    <div class="subway-exit-number">
+                        <span>6</span>
+                    </div>
+                    <div class="subway-exit-number">
+                        <span>7</span>
+                    </div>
+                    <span class="station-name">태릉입구역</span>
+                </div>
+                <div class="visit-way-box">
+                    <p class="way">태릉입구역 4,5,6번 출구 도보 3분</p>
+                    <p class="way">화랑대역 2번 출구 도보 8분</p>
                 </div>
             </div>
+            <img class="medical-logo" src="~/assets/images/logo-transparent.png" />
+            <div class="header-option-box">
+                <ul class="mini-navigator">
+                    <li class="item">
+                        <a href="#" class="header-nav-anchor">HOME</a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="header-nav-anchor">SITEMAP</a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="header-nav-anchor">CONTACT US</a>
+                    </li>
+                </ul>
+                <div class="medical-number-box">
+                    <span class="number-label">문의 전화</span>
+                    <span class="medical-number">02.979.7553</span>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navigator">
+            <ul class="top-menu">
+                <li class="item">
+                    <a href="#" class="top-item-anchor">병원 소개</a>
+                    <ul class="sub-menu">
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">병원 소개</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">의료진 소개</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">오시는 길</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">진료시간표</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="#" class="top-item-anchor">진료 안내</a>
+                    <ul class="sub-menu">
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">척추클리닉</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">관절클리닉</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">신경통증클리닉</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">도수치료</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">체외충격파</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">재활치료</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="#" class="top-item-anchor">커뮤니티</a>
+                    <ul class="sub-menu">
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">공지사항</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">진료후기</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="sub-item-anchor">보도자료</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - NowonMedical - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <aside>
+        <div class="aside-title">
+            <span>SNS</span>
+        </div>
+        <a href="#" class="sns-anchor">
+            <img src="~/assets/images/naver-blog-logo.png" />
+            <span class="extra black">네이버블로그</span>
+        </a>
+        <a href="#" class="sns-anchor">
+            <img src="~/assets/images/naver-cafe-logo.png" />
+            <span class="extra black">네이버카페</span>
+        </a>
+        <a href="#" class="sns-anchor">
+            <img src="~/assets/images/youtube-logo.png" />
+            <span class="extra black">유튜브</span>
+        </a>
+    </aside>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+    <footer>
+        <div class="medical-map-time">
+            <address>
+                <span class="extra-bold white box">LOCATION MAP</span>
+                <span class="white box">노원진 통증의학과 찾아오시는 길</span>
+                <span class="small light-font lightgray box">노원구 공릉로105(공릉동633-17) 장원빌딩 2층, 3층</span>
+                <a class="detail-button" href="#">자세히보기</a>
+            </address>
+            <div class="open-time-box">
+                <div class="alarm-icon-img">
+                    <img src="~/assets/images/alarm-time-icon.png" />
+                </div>
+                <div class="medical-time">
+                    <span class="extra-bold black">노원진 통증의학과 진료시간</span>
+                    <span class="time box">평일<span class="bold">AM 09:00 ~ PM 06:30</span></span>
+                    <span class="time box">월,목요일<span class="bold">AM 09:00 ~ PM 08:00</span></span>
+                    <span class="time box">토요일<span class="bold">AM 09:00 ~ PM 01:00</span></span>
+                    <span class="time box">점심시간<span class="bold">PM 01:00 ~ PM 02:00</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-box">
+            <img src="~/assets/images/logo-transparent.png" />
+            <address>
+                <span class="extra-bold lightgray box text-center">주소 : 서울특별시 노원구 공릉로105(공릉동633-17) 장원빌딩 2층, 3층</span>
+                <span class="extra-bold lightgray box text-center">사업자등록번호: XXX-XX-XXXXX 문의전화 : 02.979.7553</span>
+            </address>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
