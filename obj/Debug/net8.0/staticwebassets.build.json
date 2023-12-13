@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n51cCyOZwDp2GCIGgsVLR4FCORpvBKMmSqXFPuz6h/g=",
+  "Hash": "ysHLBOftPeAkAOG2zPHMQNB2xfUJRawiMQjUxdqkTWk=",
   "Source": "NowonMedical",
   "BasePath": "_content/NowonMedical",
   "Mode": "Default",
@@ -131,12 +131,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\NanumGothicLight.otf"
     },
     {
-      "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm-time-icon.png",
+      "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm_icon.png",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\dev\\NowonMedical\\wwwroot\\",
       "BasePath": "_content/NowonMedical",
-      "RelativePath": "assets/images/alarm-time-icon.png",
+      "RelativePath": "assets/images/alarm_icon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\alarm-time-icon.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\alarm_icon.png"
     },
     {
       "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\background.jpg",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\header_background.jpg"
+    },
+    {
+      "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",
+      "SourceId": "NowonMedical",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\dev\\NowonMedical\\wwwroot\\",
+      "BasePath": "_content/NowonMedical",
+      "RelativePath": "assets/images/location_icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\location_icon.png"
     },
     {
       "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\logo.png",

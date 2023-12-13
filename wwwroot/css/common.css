@@ -4,6 +4,11 @@ body {
     font-family: NanumGothic;
     font-size: 14pt;
     overflow: auto;
+    z-index: 9998;
+}
+
+div#test {
+    height: 2000px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -61,6 +66,8 @@ a {
 header {
     position: fixed;
     width: 100%;
+    top: 0;
+    z-index: 9998;
 }
 
 header div.header-title-border {
@@ -68,6 +75,7 @@ header div.header-title-border {
     height: 140px;
     border-bottom: 1px solid lightgray;
     background-color: white;
+    overflow: hidden;
 }
 
 header div.header-title-border div.header-title-bar {
@@ -213,6 +221,14 @@ p.way {
 nav.main-navigator {
     width: 100%;
     background-color: white;
+}
+
+nav.main-navigator div.menu-border {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 52px;
+    height: 0;
     border-bottom: 1px solid lightgray;
 }
 
@@ -227,7 +243,7 @@ nav.main-navigator ul.top-menu {
 nav.main-navigator ul.top-menu li.item {
     list-style: none;
     width: 100%;
-    padding: 20px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 nav.main-navigator ul.top-menu li.item a {
@@ -240,35 +256,235 @@ nav.main-navigator ul.top-menu li.item ul.sub-menu {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 20px;
-    display: none;
+    padding-top: 15px;
     height: 0px;
+    overflow: hidden;
 }
 
 nav.main-navigator ul.top-menu li.item ul.sub-menu li.sub-item {
-    margin: 10px 0px;
+    padding: 10px 0px;
 }
 
 nav.main-navigator ul.top-menu li.item:hover > a {
-    color: blue;
+    animation-name: selectTopMenu;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
-nav.main-navigator ul.top-menu li.item:hover ul.sub-menu {
-    animation-name: fadeInMenu;
-    animation-duration: 1s;
+nav.main-navigator ul.top-menu li.item ul.sub-menu.open {
+    animation-name: slideOnMenu;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
-@keyframes fadeInMenu {
-    from {
-        height: 0px;
+aside {
+    z-index: 9999;
+    width: 100px;
+    height: 570px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    border: 1px solid black;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+aside > a {
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+}
+
+aside > a:nth-of-type(1) {
+    border-top: none;
+}
+
+aside > a:nth-of-type(5) {
+    border-bottom: none;
+}
+
+aside > a:hover {
+    z-index: 1;
+    transform: scale(1.1, 1.1);
+    transition: transform 1s;
+}
+
+aside > a.simple-anchor {
+    background-color: white;
+    text-align: center;
+}
+
+aside > a.simple-anchor img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+aside > a.simple-anchor span {
+    display: block;
+    color: black;
+    font-family: NanumGothicLight;
+}
+
+aside > a.sns-anchor div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+aside div#naver-blog {
+    background: url("../assets/images/naver-blog-logo.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position-x: center;
+    background-color: #02C73C;
+}
+
+aside div#naver-cafe {
+    background: url("../assets/images/naver-cafe-logo.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position-x: center;
+    background-color: #02C73C;
+}
+
+aside div#youtube {
+    background: url("../assets/images/youtube-logo.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position-x: center;
+}
+
+aside > a.sns-anchor span {
+    color: white;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+
+aside > a.sns-anchor span.youtube {
+    color: black;
+}
+
+aside div.aside-title, aside div.aside-footer {
+    width: 100%;
+    text-align: center;
+    font-family: NanumGothicExtraBold;
+    font-size: 14pt;
+    background-color: black;
+    color: white;
+}
+
+aside div.aside-title {
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+aside div.aside-title span, aside div.aside-footer span {
+    display: block;
+    padding: 5px 0px;
+}
+
+aside div.aside-footer {
+    align-items: flex-end;
+    margin-top: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 1000px;
+}
+
+footer div.medical-map-time {
+    height: 500px;
+    width: 100%;
+}
+
+footer div.medical-map-time div.medical-map {
+    height: 100%;
+    width: 100%;
+    background: url("../assets/images/footer_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer div.medical-map-time div.medical-map div.map-info {
+    padding-top: 150px;
+}
+
+footer div.medical-map-time div.medical-map div.map-info > * {
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer div.medical-map-time div.medical-map div.map-info span:nth-of-type(1) {
+    font-family: NanumGothicExtraBold;
+    font-size: 24pt;
+    color: white;
+    letter-spacing: -1px;
+}
+
+footer div.medical-map-time div.medical-map div.map-info span:nth-of-type(2) {
+    letter-spacing: -0.2px;
+    font-size: 16pt;
+    margin-bottom: 12px;
+}
+
+footer div.medical-map-time div.medical-map div.map-info span:nth-of-type(3) {
+    color: #E2E2E2;
+    margin-bottom: 20px;
+    font-size: 14pt;
+    letter-spacing: -0.5px;
+}
+
+footer div.medical-map-time div.medical-map div.map-info a {
+    color: black;
+    border: 1px solid black;
+    width: 140px;
+    padding: 5px 0px;
+    margin: 0 auto;
+    background-color: transparent;
+    letter-spacing: -1px;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
     }
 
-    to {
-        height: 120px;
-        display: block;
+    100% {
+        transform: scale(1.1, 1.1);
     }
 }
 
+@keyframes slideOnMenu {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 260px;
+    }
+}
+
+@keyframes selectTopMenu {
+    0% {
+        color: black;
+    }
+
+    100% {
+        color: blue;
+    }
+}
 @font-face {
     font-family: NanumGothic;
     src: url('../assets/fonts/NanumGothic.otf');

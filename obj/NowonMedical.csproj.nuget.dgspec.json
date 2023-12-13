@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\visual studio\\NowonMedical\\NowonMedical.csproj": {}
+    "E:\\dev\\NowonMedical\\NowonMedical.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\visual studio\\NowonMedical\\NowonMedical.csproj": {
+    "E:\\dev\\NowonMedical\\NowonMedical.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\visual studio\\NowonMedical\\NowonMedical.csproj",
+        "projectUniqueName": "E:\\dev\\NowonMedical\\NowonMedical.csproj",
         "projectName": "NowonMedical",
-        "projectPath": "C:\\workspace\\visual studio\\NowonMedical\\NowonMedical.csproj",
-        "packagesPath": "C:\\Users\\skyho\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\visual studio\\NowonMedical\\obj\\",
+        "projectPath": "E:\\dev\\NowonMedical\\NowonMedical.csproj",
+        "packagesPath": "C:\\Users\\a0107\\.nuget\\packages\\",
+        "outputPath": "E:\\dev\\NowonMedical\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\skyho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\a0107\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

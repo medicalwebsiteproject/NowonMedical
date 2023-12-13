@@ -21,8 +21,8 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothicLight.otf"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm-time-icon.png",
-      "PackagePath": "staticwebassets\\assets\\images\\alarm-time-icon.png"
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm_icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alarm_icon.png"
     },
     {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\background.jpg",
@@ -43,6 +43,10 @@
     {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\header_background.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\header_background.jpg"
+    },
+    {
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\location_icon.png"
     },
     {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\logo-transparent.png",
