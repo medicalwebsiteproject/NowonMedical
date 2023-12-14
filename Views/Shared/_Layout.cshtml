@@ -108,7 +108,6 @@
             </ul>
         </nav>
     </header>
-    <div id="test"></div>
     <aside>
         <div class="aside-title">
             <span>빠른이동</span>
@@ -140,7 +139,7 @@
             <span>TOP</span>
         </div>
     </aside>
-    <main role="main" class="pb-3">
+    <main role="main">
         @RenderBody()
     </main>
     <footer>
@@ -154,23 +153,27 @@
                 </div>
             </div>
             <div class="open-time-box">
-                <div class="alarm-icon-img">
-                    <img src="~/assets/images/alarm-time-icon.png" />
-                </div>
+                <img src="~/assets/images/alarm-clock-icon.png" />
                 <div class="medical-time">
                     <span class="extra-bold black">노원진 통증의학과 진료시간</span>
-                    <span class="time box">평일<span class="bold">AM 09:00 ~ PM 06:30</span></span>
-                    <span class="time box">월,목요일<span class="bold">AM 09:00 ~ PM 08:00</span></span>
-                    <span class="time box">토요일<span class="bold">AM 09:00 ~ PM 01:00</span></span>
-                    <span class="time box">점심시간<span class="bold">PM 01:00 ~ PM 02:00</span></span>
+                    <div class="div-open-time">
+                        <span class="time-am-pm">평&emsp;일</span><span class="time bold">AM 09:00 ~ PM 06:30</span>
+                        <span class="time-am-pm">월/목요일</span><span class="time bold">AM 09:00 ~ PM 08:00</span>
+                    </div>
+                    <div class="div-open-time">
+                        <span class="time-am-pm">토 요 일</span><span class="time bold">AM 09:00 ~ PM 01:00</span>
+                        <span class="time-am-pm">점심시간</span><span class="time bold">PM 01:00 ~ PM 02:00</span>
+                    </div>
+                    <span class="light-font">※ 매주 월요일, 목요일은 야간진료입니다. (오후 8시까지)</span>
                 </div>
             </div>
         </div>
         <div class="copyright-box">
-            <img src="~/assets/images/logo-transparent.png" />
+            <img src="~/assets/images/black-white-logo.png" />
             <address>
-                <span class="extra-bold lightgray box text-center">주소 : 서울특별시 노원구 공릉로105(공릉동633-17) 장원빌딩 2층, 3층</span>
-                <span class="extra-bold lightgray box text-center">사업자등록번호: XXX-XX-XXXXX 문의전화 : 02.979.7553</span>
+                <span>대표 : 이인화 주소 :노원구 공릉로105(공릉동633-17) 장원빌딩 2,3층</span>
+                <span>TEL : 010.9115.7553 TEL : 02.979.7533</span>
+                <span>Copyright (C) 2022 NOWON JIN PAIN CLINIC. All rights reserved.</span>
             </address>
         </div>
     </footer>

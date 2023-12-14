@@ -21,12 +21,20 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothicLight.otf"
     },
     {
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm-clock-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alarm-clock-icon.png"
+    },
+    {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm_icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\alarm_icon.png"
     },
     {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\background.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\background.jpg"
+    },
+    {
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\black-white-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\black-white-logo.png"
     },
     {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\degenerative_arthritis.jpg",

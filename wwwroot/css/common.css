@@ -4,11 +4,7 @@ body {
     font-family: NanumGothic;
     font-size: 14pt;
     overflow: auto;
-    z-index: 9998;
-}
-
-div#test {
-    height: 2000px;
+    z-index: 9999;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -63,11 +59,17 @@ a {
     text-decoration: none;
 }
 
+main {
+    position: relative;
+    top: 170px;
+}
+
 header {
     position: fixed;
+    display: block;
     width: 100%;
     top: 0;
-    z-index: 9998;
+    z-index: 9999;
 }
 
 header div.header-title-border {
@@ -290,6 +292,7 @@ aside {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    background-color: white;
 }
 
 aside > a {
@@ -358,6 +361,7 @@ aside div#youtube {
     background-repeat: no-repeat;
     background-size: 70px;
     background-position-x: center;
+    background-color: white;
 }
 
 aside > a.sns-anchor span {
@@ -399,7 +403,7 @@ aside div.aside-footer {
 
 footer {
     width: 100%;
-    height: 1000px;
+    margin-top: 200px;
 }
 
 footer div.medical-map-time {
@@ -454,6 +458,89 @@ footer div.medical-map-time div.medical-map div.map-info a {
     margin: 0 auto;
     background-color: transparent;
     letter-spacing: -1px;
+}
+
+footer div.medical-map-time div.open-time-box {
+    position: relative;
+    width: 1200px;
+    height: 270px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 6px 4px #616161;
+    border: 1px solid black;
+    margin: 0 auto;
+    top: -150px;
+    display: flex;
+}
+
+footer div.medical-map-time div.open-time-box > img {
+    width: 125px;
+    height: 125px;
+    margin: 40px;
+}
+
+footer div.medical-map-time div.open-time-box div.medical-time {
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer div.medical-map-time div.open-time-box div.medical-time > span:nth-of-type(1) {
+    font-size: 20pt;
+    display: block;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+
+footer div.medical-map-time div.open-time-box div.medical-time div.div-open-time {
+    width: 100%;
+    height: 30px;
+    letter-spacing: -1px;
+}
+
+footer div.medical-map-time div.open-time-box div.medical-time div.div-open-time span.time-am-pm {
+    font-size: 18pt;
+    font-family: NanumGothicLight;
+    display: inline-block;
+    width: 110px;
+}
+
+footer div.medical-map-time div.open-time-box div.medical-time div.div-open-time span.time {
+    font-size: 18pt;
+    font-family: NanumGothicExtraBold;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+footer div.medical-map-time div.open-time-box div.medical-time > span:nth-of-type(2) {
+    font-size: 14pt;
+    display: inline-block;
+    margin-top: 20px;
+    color: #616161;
+    letter-spacing: -0.5px;
+}
+
+footer div.copyright-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 130px;
+    position: relative;
+    text-align: center;
+}
+
+footer div.copyright-box img {
+    width: 270px;
+    height: 140px;
+}
+
+footer div.copyright-box address {
+    font-family: NanumGothicLight;
+    font-size: 14pt;
+    color: gray;
+    letter-spacing: -1px;
+    font-style: normal;
+}
+
+footer div.copyright-box address span {
+    display: block;
 }
 
 @keyframes zoomIn {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ysHLBOftPeAkAOG2zPHMQNB2xfUJRawiMQjUxdqkTWk=",
+  "Hash": "B62COSYq6rD8qq+xaItp9ol2nL8uSGlbuBF7az4pLS4=",
   "Source": "NowonMedical",
   "BasePath": "_content/NowonMedical",
   "Mode": "Default",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\alarm_icon.png"
     },
     {
+      "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm-clock-icon.png",
+      "SourceId": "NowonMedical",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\dev\\NowonMedical\\wwwroot\\",
+      "BasePath": "_content/NowonMedical",
+      "RelativePath": "assets/images/alarm-clock-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\alarm-clock-icon.png"
+    },
+    {
       "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\background.jpg",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
@@ -167,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\background.jpg"
+    },
+    {
+      "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\black-white-logo.png",
+      "SourceId": "NowonMedical",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\dev\\NowonMedical\\wwwroot\\",
+      "BasePath": "_content/NowonMedical",
+      "RelativePath": "assets/images/black-white-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\black-white-logo.png"
     },
     {
       "Identity": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\degenerative_arthritis.jpg",
