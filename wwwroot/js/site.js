@@ -7,7 +7,7 @@ const openSubMenu = (open) => {
 }
 
 window.onload = () => {
-    const topNavs = document.querySelectorAll("ul.top-menu li.item");
+    const topNavs = document.querySelectorAll("ul.main-navigator");
 
     Array.from(topNavs).forEach(nav => {
         nav.addEventListener("mouseover", () => {
