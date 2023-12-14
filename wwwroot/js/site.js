@@ -8,6 +8,15 @@ const openSubMenu = (open) => {
 
 window.onload = () => {
     const topNavs = document.querySelectorAll("ul.main-navigator");
+    const asideTop = document.querySelector("aside div.aside-footer");
+
+    asideTop.addEventListener("click", () => {
+        window.scrollTo({
+            behavior: "smooth",
+            left: 0,
+            top: 0
+        });
+    });
 
     Array.from(topNavs).forEach(nav => {
         nav.addEventListener("mouseover", () => {
