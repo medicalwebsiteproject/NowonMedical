@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NowonMedical")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c156c112a6397ab02ec7ef9ad49874da440d0eb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03780d57073e04f90b4e22232cffdd0f76028a9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NowonMedical")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NowonMedical")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

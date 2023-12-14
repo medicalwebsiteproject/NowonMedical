@@ -10,9 +10,4 @@
     <Content Remove="Views\Index\Test.cshtml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="Views\Index\Test.cshtml" />
-    <None Include="wwwroot\assets\logo.png" />
-  </ItemGroup>
-
 </Project>
