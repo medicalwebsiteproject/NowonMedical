@@ -1,379 +1,391 @@
 {
   "Files": [
     {
-      "Id": "E:\\dev\\NowonMedical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NowonMedical.bundle.scp.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NowonMedical.bundle.scp.css",
       "PackagePath": "staticwebassets\\NowonMedical.bundle.scp.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothic.otf",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothic.otf",
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothic.otf"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothicBold.otf",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothicBold.otf",
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothicBold.otf"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothicExtraBold.otf",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothicExtraBold.otf",
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothicExtraBold.otf"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothicLight.otf",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothicLight.otf",
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothicLight.otf"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm-clock-icon.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\INTRODUCE_BACKGROUND.png",
+      "PackagePath": "staticwebassets\\assets\\images\\INTRODUCE_BACKGROUND.png"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\alarm-clock-icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\alarm-clock-icon.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm_icon.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\alarm_icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\alarm_icon.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\background.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\background.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\background.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\black-white-logo.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\black-white-logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\black-white-logo.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\degenerative_arthritis.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\degenerative_arthritis.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\degenerative_arthritis.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\footer_background.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\footer_background.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\footer_background.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\frozen_sholder.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\frozen_sholder.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\frozen_sholder.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\header_background.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\header_background.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\header_background.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\location_icon.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\logo-transparent.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\logo-transparent.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo-transparent.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\logo.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\logo2.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\logo2.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo2.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\logo3.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\logo3.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo3.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\lumbar_disc.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\lumbar_disc.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\lumbar_disc.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\manual_therapy1.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\main_banner.png",
+      "PackagePath": "staticwebassets\\assets\\images\\main_banner.png"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\manual_therapy1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\manual_therapy1.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\manual_therapy2.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\manual_therapy2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\manual_therapy2.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\manual_therapy3.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\manual_therapy3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\manual_therapy3.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\map-pin-icon.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\map-pin-icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\map-pin-icon.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\naver-blog-logo.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\naver-blog-logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\naver-blog-logo.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\naver-cafe-logo.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\naver-cafe-logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\naver-cafe-logo.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\neck_disk.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\neck_disk.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\neck_disk.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\phone-icon.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\phone-icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\phone-icon.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\plantar_fasciitis.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\plantar_fasciitis.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\plantar_fasciitis.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\rotator_cuff_rupture.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\rotator_cuff_rupture.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\rotator_cuff_rupture.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\scoliosis1.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\scoliosis1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\scoliosis1.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\scoliosis2.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\scoliosis2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\scoliosis2.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\spinal_stenosis.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\spinal_stenosis.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\spinal_stenosis.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\tennis_elbow.jpg",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\tennis_elbow.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\tennis_elbow.jpg"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\youtube-logo.png",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\assets\\images\\youtube-logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\youtube-logo.png"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\css\\common.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\css\\common.css",
       "PackagePath": "staticwebassets\\css\\common.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\css\\subpage.css",
+      "PackagePath": "staticwebassets\\css\\subpage.css"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\dev\\NowonMedical\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\skyho\\Source\\Repos\\NowonMedical\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
