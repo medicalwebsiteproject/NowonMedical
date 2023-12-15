@@ -7,7 +7,7 @@ const openSubMenu = (open) => {
 }
 
 window.onload = () => {
-    const topNavs = document.querySelectorAll("ul.main-navigator");
+    const topNav = document.querySelector("nav.main-navigator");
     const asideTop = document.querySelector("aside div.aside-footer");
 
     asideTop.addEventListener("click", () => {
@@ -18,18 +18,16 @@ window.onload = () => {
         });
     });
 
-    Array.from(topNavs).forEach(nav => {
-        nav.addEventListener("mouseover", () => {
-            nav.children[1].classList.add("open");
-            document.querySelector("nav.main-navigator").style.borderBottom = "1px solid lightgray";
-            openSubMenu(true);
-        });
+    topNav.addEventListener("mouseover", () => {
+        topNav.classList.add("open");
+        document.querySelector("nav.main-navigator").style.borderBottom = "1px solid lightgray";
+        openSubMenu(true);
+    });
 
-        nav.addEventListener("mouseout", () => {
-            nav.children[1].classList.remove("open");
-            document.querySelector("nav.main-navigator").style.borderBottom = "none";
-            openSubMenu(false);
-        });
+    topNav.addEventListener("mouseout", () => {
+        topNav.classList.remove("open");
+        document.querySelector("nav.main-navigator").style.borderBottom = "none";
+        openSubMenu(false);
     });
 
     document.onscroll = ev => {

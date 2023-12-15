@@ -273,9 +273,9 @@ nav.main-navigator ul.top-menu li.item:hover > a {
     animation-fill-mode: forwards;
 }
 
-nav.main-navigator ul.top-menu li.item ul.sub-menu.open {
+nav.main-navigator.open ul.top-menu li.item ul.sub-menu {
     animation-name: slideOnMenu;
-    animation-duration: 0.5s;
+    animation-duration: 0.2s;
     animation-fill-mode: forwards;
 }
 
