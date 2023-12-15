@@ -1,0 +1,8 @@
+﻿body {
+}
+
+.visual {
+    width: 3000px;
+    height: 275px;
+    background: url("../assets/images/INTRODUCE_BACKGROUND.png") no-repeat top center;
+}

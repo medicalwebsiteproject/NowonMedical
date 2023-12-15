@@ -12,5 +12,13 @@ namespace NowonMedical.Controllers
         {
             return View();
         }
+
+        [Route("")]
+        [Route("Index")]
+        [Route("Index/Introduce")]
+        public IActionResult Introduce()
+        {
+            return View();
+        }
     }
 }
