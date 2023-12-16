@@ -9,43 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NowonMedical
 build_property.RootNamespace = NowonMedical
-build_property.ProjectDir = E:\dev\NowonMedical\
+build_property.ProjectDir = C:\Users\skyho\Source\Repos\NowonMedical\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\dev\NowonMedical
+build_property.MSBuildProjectDirectory = C:\Users\skyho\Source\Repos\NowonMedical
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/dev/NowonMedical/Views/Index/Index.cshtml]
+[C:/Users/skyho/Source/Repos/NowonMedical/Views/Index/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dev/NowonMedical/Views/Index/Introduce.cshtml]
+[C:/Users/skyho/Source/Repos/NowonMedical/Views/Index/Introduce.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW50cm9kdWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dev/NowonMedical/Views/Shared/Error.cshtml]
+[C:/Users/skyho/Source/Repos/NowonMedical/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [E:/dev/NowonMedical/Views/Shared/_ExtensionLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FeHRlbnNpb25MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/dev/NowonMedical/Views/Shared/_ValidationScriptsPartial.cshtml]
+=======
+[C:/Users/skyho/Source/Repos/NowonMedical/Views/Shared/_ValidationScriptsPartial.cshtml]
+>>>>>>> 67d66eace336535556757b8587d44e20b6804c9e
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dev/NowonMedical/Views/_ViewImports.cshtml]
+[C:/Users/skyho/Source/Repos/NowonMedical/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dev/NowonMedical/Views/_ViewStart.cshtml]
+[C:/Users/skyho/Source/Repos/NowonMedical/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dev/NowonMedical/Views/Shared/_Layout.cshtml]
+[C:/Users/skyho/Source/Repos/NowonMedical/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cto0w8asos
