@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\INTRODUCE_BACKGROUND.png"
     },
     {
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\Intro_background_menu1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Intro_background_menu1.png"
+    },
+    {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\alarm-clock-icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\alarm-clock-icon.png"
     },
@@ -55,6 +59,14 @@
     {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\header_background.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\header_background.jpg"
+    },
+    {
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\home-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home-icon.png"
+    },
+    {
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\intro_background.png",
+      "PackagePath": "staticwebassets\\assets\\images\\intro_background.png"
     },
     {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",

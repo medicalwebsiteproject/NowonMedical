@@ -13,6 +13,14 @@ namespace NowonMedical.Controllers
             return View();
         }
 
+        [Route("Test")]
+        public IActionResult Test()
+        {
+            NavigatorModel navigator = new NavigatorModel(1, 2);
+            ViewData["banner_url"] = "../assets/images/intro_background_menu1.png";
+            return View(navigator);
+        }
+
         [Route("")]
         [Route("Index")]
         [Route("Index/Introduce")]
