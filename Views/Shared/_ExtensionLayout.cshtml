@@ -7,7 +7,7 @@
 	<img src="~/assets/images/intro_background.png" class="banner-background" />
 	<div class="banner-select-box">
 		<a href="/" id="back-home"></a>
-		<div class="select-box">
+		<div class="select-box" id="topSelect">
 			<div class="banner-top-nav">
 				<span class="origin-item">@Model.Navigator.Keys.ToList()[Model.TopMenuIdx]</span>
 				<span class="dropdown-icon"></span>
@@ -15,24 +15,25 @@
 			<div class="options">
 				@{
 					List<string> topMenus = Model.Navigator.Keys.ToList();
-					List<string> subMenus = Model.Navigator[topMenus[Model.TopMenuIdx]].ToList();
+					List<NavigatorPath> subMenus = Model.Navigator[topMenus[Model.TopMenuIdx]].ToList();
 					for (int topMenuIdx = 0; topMenuIdx < topMenus.Count; topMenuIdx++)
 					{
-						<div class="option"><span>@topMenus[topMenuIdx]</span></div>
+						<div class="option @(topMenuIdx == Model.TopMenuIdx ? " selected" : "")" data-route=@Model.Navigator[topMenus[topMenuIdx]].ToList()[0].Path><span>@topMenus[topMenuIdx]</span></div>
 					}
 				}
 			</div>
 		</div>
-		<div class="select-box">
+		<span class="select-box-border"></span>
+		<div class="select-box" id="subSelect">
 			<div class="banner-sub-nav">
-				<span class="origin-item">@subMenus[Model.SubMenuIdx]</span>
+				<span class="origin-item">@subMenus[Model.SubMenuIdx].Name</span>
 				<span class="dropdown-icon"></span>
 			</div>
 			<div class="options">
 				@{
 					for (int subMenuIdx = 0; subMenuIdx < subMenus.Count; subMenuIdx++)
 					{
-						<div class="option"><span>@subMenus[subMenuIdx]</span></div>
+						<div class="option  @(subMenuIdx == Model.SubMenuIdx ? " selected" : "")" data-route=@subMenus[subMenuIdx].Path><span>@subMenus[subMenuIdx].Name</span></div>
 					}
 				}
 			</div>
