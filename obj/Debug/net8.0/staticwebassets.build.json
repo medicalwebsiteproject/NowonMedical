@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u52W65Vx7GoW+ol3CXNBw3GdKLHvoSgNu1/AWvvknx4=",
+  "Hash": "nFFsu/P1Acj3nEx793UNKuBWADArj3adaS7InkQZu1w=",
   "Source": "NowonMedical",
   "BasePath": "_content/NowonMedical",
   "Mode": "Default",
@@ -832,6 +832,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\dev\\NowonMedical\\wwwroot\\js\\banner-navigator.js",
+      "SourceId": "NowonMedical",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\dev\\NowonMedical\\wwwroot\\",
+      "BasePath": "_content/NowonMedical",
+      "RelativePath": "js/banner-navigator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\banner-navigator.js"
     },
     {
       "Identity": "E:\\dev\\NowonMedical\\wwwroot\\js\\site.js",

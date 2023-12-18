@@ -2,7 +2,6 @@
 	Layout = "_Layout";
 }
 @model NavigatorModel
-
 <div class="banner-box">
 	<img src="~/assets/images/intro_background.png" class="banner-background" />
 	<div class="banner-select-box">
@@ -38,9 +37,8 @@
 				}
 			</div>
 		</div>
-		<div style="background: url(@ViewData["banner_url"]) no-repeat;" class="sub-banner-box" />
+		<div style="background: url(@ViewData["banner_url"]) no-repeat;" class="sub-banner-box"></div>
 	</div>
 </div>
-<div class="main-container">
-	@RenderBody()
-</div>
+@RenderBody()
+<script type="text/javascript" src="/js/banner-navigator.js"></script>

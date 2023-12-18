@@ -169,6 +169,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\dev\\NowonMedical\\wwwroot\\js\\banner-navigator.js",
+      "PackagePath": "staticwebassets\\js\\banner-navigator.js"
+    },
+    {
       "Id": "E:\\dev\\NowonMedical\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
