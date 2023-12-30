@@ -9,6 +9,7 @@ const openSubMenu = (open) => {
 window.onload = () => {
     const topNav = document.querySelector("nav.main-navigator");
     const asideTop = document.querySelector("aside div.aside-footer");
+    const menu_select = document.querySelector("div.equip_menu");
 
     asideTop.addEventListener("click", () => {
         window.scrollTo({
@@ -28,6 +29,11 @@ window.onload = () => {
         topNav.classList.remove("open");
         document.querySelector("nav.main-navigator").style.borderBottom = "none";
         openSubMenu(false);
+    });
+
+    menu_select.addEventListener("click", () => {
+        var test1 = document.getElementsByClassName(".equip_menu div");
+        test1.style.backgroundColor = "white";
     });
 
     document.onscroll = ev => {

@@ -22,6 +22,7 @@ body {
 h1 {
     text-align: center;
     font-size: 35pt;
+    font-family: fantasy;
 }
 
 .temp_box {
@@ -32,6 +33,86 @@ h1 {
     margin-right: auto;
     margin-top: 0;
 }
+.equip_intro {
+    background-color: #D5DBF1;
+    width : 1150px;
+    height: 750px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 50px;
+    padding : 100px;
+}
+.equip_intro .align {
+    text-align :center;
+}
+.equip_intro p{
+    font-size : 35pt;
+    font-weight : bold;
+    padding : 0px 0px 80px 0px;
+    margin : 0;
+    display :inline-block;
+}
+.equip_intro p span {
+    color: #4A2DFD;
+}
+.equip_menu{
+    display :flex;
+    padding : 0px 0px 100px 0px;
+    text-align : center;
+}
+.equip_menu div{
+    display : inline-block;
+    width :100%;
+    font-size : 20pt;
+    font-weight : 500;
+    margin : 0;
+}
+.equip_picture {
+    display: inline-block;
+    float: left;
+    text-align : center;
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 455px;
+    margin: 0px 30px 0px 30px;
+}
+.equip_picture img{
+    width :475px;
+    height :455px;
+}
+.equip_explain {
+    display: inline-block;
+    float : left;
+    text-align: left;
+    padding: 0px 0px 0px 40px;
+    border-bottom : #D9D9D9;
+}
+.equip_explain #title{
+    border-bottom : #D9D9D9;
+    padding : 0px 0px 20px 0px;
+    font-size : 35px;
+    font-weight : 900;
+    
+}
+.equip_explain #subtitle {
+    font-size : 18pt;
+}
+.equip_explain #explain1 {
+    display: none;
+    font-size: 17px;
+    padding: 30px 0px 0px 0px;
+}
+.equip_explain #explain2 {
+    display: none;
+    font-size: 17px;
+    padding: 30px 0px 0px 0px;
+}
+.equip_explain #explain3 {
+    display: block;
+    font-size: 17px;
+    padding: 30px 0px 0px 0px;
+}
+
 table{
     margin-left : auto;
     margin-right : auto;
@@ -41,13 +122,65 @@ table{
     width :auto;
 }
 
+#bottom_1 {
+    text-align : right;
+    background: url("../assets/images/shock.png") no-repeat;
+    background-size: cover;
+    width : 578px;
+    padding : 0;
+}
+
+#bottom_2 {
+    text-align: right;
+    background: url("../assets/images/dosu.png") no-repeat;
+    background-size: cover;
+    width: 578px;
+    height : 300px;
+    padding: 0;
+}
+
+#bottom_1 p {
+    font-size: 35pt;
+    font-weight: bold;
+    color: white;
+    margin: 175px 30px 8px 0px;
+}
+#bottom_2 p {
+    font-size: 35pt;
+    font-weight: bold;
+    color: white;
+    margin: 175px 30px 8px 0px;
+}
+.sub {
+    float : right;
+    text-align : left;
+    width: 135px;
+}
+.plus {
+    display: inline-block;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-size: 10pt;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 10px;
+}
+.sub #detail {
+    color: white;
+    font-weight : 900;
+    font-family: "Noto Sans KR";
+    font-size: 12pt;  
+}
 .slogen {
-    width: 1440pt;
-    height: 700pt;
+    width: 100%;
+    height: 725pt;
     margin-top : 100pt;
     margin-left: auto;
     margin-right: auto;
-    background: url("../assets/images/slogen.png") no-repeat top center;
+    background: url("../assets/images/main_contents_2.png") no-repeat top center;
     background-size: cover;
 }
 

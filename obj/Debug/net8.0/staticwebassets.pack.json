@@ -21,12 +21,24 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothicLight.otf"
     },
     {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\C-ARM.png",
+      "PackagePath": "staticwebassets\\assets\\images\\C-ARM.png"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\Ex-Body.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Ex-Body.png"
+    },
+    {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\INTRODUCE_BACKGROUND.png",
       "PackagePath": "staticwebassets\\assets\\images\\INTRODUCE_BACKGROUND.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\Intro_background_menu1.png",
       "PackagePath": "staticwebassets\\assets\\images\\Intro_background_menu1.png"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\ZEUSWAVE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ZEUSWAVE.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\alarm-clock-icon.png",
@@ -47,6 +59,10 @@
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\degenerative_arthritis.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\degenerative_arthritis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\dosu.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dosu.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\footer_background.jpg",
@@ -101,6 +117,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\main_banner.png"
     },
     {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\main_contents_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\main_contents_2.png"
+    },
+    {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\manual_therapy1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\manual_therapy1.jpg"
     },
@@ -141,6 +161,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\plantar_fasciitis.jpg"
     },
     {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\plus.png",
+      "PackagePath": "staticwebassets\\assets\\images\\plus.png"
+    },
+    {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\retain_picture.png",
       "PackagePath": "staticwebassets\\assets\\images\\retain_picture.png"
     },
@@ -155,6 +179,10 @@
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\scoliosis2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\scoliosis2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\shock.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shock.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\shock_picture.png",
@@ -199,6 +227,10 @@
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\js\\banner-navigator.js",
       "PackagePath": "staticwebassets\\js\\banner-navigator.js"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\js\\site.js",
