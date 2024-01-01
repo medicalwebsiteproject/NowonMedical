@@ -28,12 +28,6 @@ body {
     vertical-align: bottom;
 }
 
-h1 {
-    text-align: center;
-    font-size: 30pt;
-    font-family: fantasy;
-}
-
 .temp_box {
     background-color: #3F3F3F;
     width: 1150px;
@@ -41,14 +35,27 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    display :none;
 }
+
+h5{
+    color : gray;
+    text-align :center;
+    margin :120px 0px 10px 0px;
+}
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    font-weight :300;
+    font-family : GmarketSansBold;
+    margin: 10px 0px 26px 0px;
+}
+
+
 .equip_intro {
-    background-color: #D5DBF1;
     width : 1060px;
     height: 750px;
-    margin-left : auto;
-    margin-right : auto;
-    margin-top : 50px;
+    margin : 50px auto 50px auto;
     padding : 50px;
 }
 .equip_intro .align {
@@ -57,26 +64,31 @@ h1 {
 }
 .equip_intro p{
     font-size : 35pt;
-    padding : 0px 0px 80px 0px;
+    padding : 20px 0px 50px 0px;
     margin : 0;
     display :inline-block;
 }
 .equip_intro p span {
     color: #4A2DFD;
 }
-.equip_menu{
-    display :flex;
-    padding : 0px 0px 100px 0px;
-    text-align : center;
+.equip_menu {
+    display: flex;
+    padding: 0px 0px 80px 0px;
+    text-align: center;
+    color : white;
+    line-height: 50px;
+    font-weight : bold;
 }
-#ex-body{
-    cursor:pointer;
+#ex-body {
+    cursor: pointer;
 }
 #c-arm {
     cursor: pointer;
+    color : black;
 }
 #zeus {
     cursor: pointer;
+    color : black;
 }
 .equip_menu div{
     display : inline-block;
@@ -88,15 +100,18 @@ h1 {
 .equip_picture {
     display: inline-block;
     float: left;
-    text-align : center;
+    text-align: center;
     background-color: #D9D9D9;
     width: 450px;
-    height: 405px;
+    height: 450px;
     margin: 0px 30px 0px 30px;
+    border-radius: 50%;
+    line-height : 475px;
 }
-.equip_picture img{
-    width :425px;
-    height :405px;
+.equip_picture img {
+    vertical-align: middle;
+    width: 325px;
+    height: 325px;
 }
 .equip_explain {
     display: inline-block;
@@ -116,33 +131,40 @@ h1 {
     font-size : 18pt;
 }
 .equip_explain #explain1 {
-    display: none;
-    font-size: 16px;
+    display: block;
+    font-size: 21px;
     padding: 30px 0px 0px 0px;
 }
 .equip_explain #explain2 {
     display: none;
-    font-size: 16px;
+    font-size: 21px;
     padding: 30px 0px 0px 0px;
 }
 .equip_explain #explain3 {
-    display: block;
-    font-size: 16px;
+    display: none;
+    font-size: 20px;
     padding: 30px 0px 0px 0px;
 }
 
 .menu_list{
     margin : 0 auto;
     text-align :center;
-    width:1150px;
+    width:1160px;
 }
+.menu_list p {
+    font-size: 35pt;
+    font-weight: bold;
+    color: white;
+    margin: 200px auto 5px auto;
+}
+
 
 #top_1 {
     display: inline-block;
-    text-align: right;
-    background: url("../assets/images/spain.png") no-repeat;
+    text-align: center;
+    background: url("../assets/images/spain_2.png") no-repeat;
     background-size: cover;
-    width: 650px;
+    width: 380px;
     height: 300px;
     padding: 0;
     margin: 0px 0px 10px 0px;
@@ -152,13 +174,12 @@ h1 {
     transform : scale(1.03);
     transition : .5s;
 }
-
 #top_2 {
     display: inline-block;
     text-align: center;
-    background: url("../assets/images/nerve.png") no-repeat;
+    background: url("../assets/images/nerve_2.png") no-repeat;
     background-size: cover;
-    width: 490px;
+    width: 380px;
     height: 300px;
     padding: 0;
     vertical-align: top;
@@ -167,115 +188,69 @@ h1 {
     transform: scale(1.03);
     transition: .5s;
 }
-
-#middle_1 {
+#top_3 {
     display: inline-block;
     text-align: center;
-    background: url("../assets/images/retain.png") no-repeat;
+    background: url("../assets/images/retain_2.png") no-repeat;
     background-size: cover;
-    width: 480px;
+    width: 380px;
     height: 300px;
     padding: 0;
     margin: 0px 0px 10px 0px;
     vertical-align: bottom;
 }
-#middle_1:hover {
+#top_3:hover {
     transform: scale(1.03);
     transition: .5s;
 }
-#middle_2 {
+#bottom_1 {
     display: inline-block;
-    text-align: right;
-    background: url("../assets/images/joint.png") no-repeat;
+    text-align: center;
+    background: url("../assets/images/joint_2.png") no-repeat;
     background-size: cover;
-    width: 660px;
+    width: 380px;
     height: 300px;
     padding: 0;
     vertical-align: top;
-}
-#middle_2:hover {
-    transform: scale(1.03);
-    transition: .5s;
-}
-
-#bottom_1 {
-    display :inline-block;
-    text-align : right;
-    background: url("../assets/images/shock.png") no-repeat;
-    background-size: cover;
-    width : 568px;
-    height :300px;
-    padding : 0;
 }
 #bottom_1:hover {
     transform: scale(1.03);
     transition: .5s;
 }
-
 #bottom_2 {
-    display : inline-block;
-    text-align: right;
-    background: url("../assets/images/dosu.png") no-repeat;
+    display :inline-block;
+    text-align : center;
+    background: url("../assets/images/shock_2.png") no-repeat;
     background-size: cover;
-    width: 568px;
-    height : 300px;
-    padding: 0;
+    width : 380px;
+    height :300px;
+    padding : 0;
 }
 #bottom_2:hover {
     transform: scale(1.03);
     transition: .5s;
 }
-#top_2 .sub{
-    float : none;
-    margin-left :auto;
-    margin-right : auto;
+#bottom_3 {
+    display : inline-block;
+    text-align: center;
+    background: url("../assets/images/dosu_2.png") no-repeat;
+    background-size: cover;
+    width: 380px;
+    height : 300px;
+    padding: 0;
 }
-#middle_1 .sub{
-    float : none;
-    margin-left :auto;
-    margin-right : auto;
+#bottom_3:hover {
+    transform: scale(1.03);
+    transition: .5s;
 }
 
-#top_1 p {
-    font-size: 35pt;
-    font-weight: bold;
-    color: white;
-    margin: 175px 30px 8px 0px;
-}
-#top_2 p {
-    font-size: 35pt;
-    font-weight: bold;
-    color: white;
-    margin: 175px 30px 8px 0px;
-}
-#middle_1 p {
-    font-size: 35pt;
-    font-weight: bold;
-    color: white;
-    margin: 175px 30px 8px 0px;
-}
-#middle_2 p {
-    font-size: 35pt;
-    font-weight: bold;
-    color: white;
-    margin: 175px 30px 8px 0px;
-}
-#bottom_1 p {
-    font-size: 35pt;
-    font-weight: bold;
-    color: white;
-    margin: 175px 30px 8px 0px;
-}
-#bottom_2 p {
-    font-size: 35pt;
-    font-weight: bold;
-    color: white;
-    margin: 175px 30px 8px 0px;
-}
 .sub {
-    float : right;
-    text-align : left;
+    float: right;
+    text-align: left;
     width: 135px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 .plus {
     display: inline-block;
@@ -296,7 +271,6 @@ h1 {
     font-size: 12pt;  
 }
 .slogen {
-    margin-top : 100pt;
     margin-left: auto;
     margin-right: auto;
     text-align : center;
@@ -994,6 +968,24 @@ div.banner-box div.sub-banner-box {
 @font-face {
     font-family: NanumGothicLight;
     src: url('../assets/fonts/NanumGothicLight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: GmarketSansBold;
+    src : url('../assets/fonts/GmarketSansBold.otf');
+    font-weight : normal;
+    font-style : normal;
+}
+@font-face {
+    font-family: GmarketSansLight;
+    src: url('../assets/fonts/GmarketSansLight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: GmarketSansMedium;
+    src: url('../assets/fonts/GmarketSansMedium.otf');
     font-weight: normal;
     font-style: normal;
 }

@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\NowonMedical.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\fonts\\GmarketSansBold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\GmarketSansBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\fonts\\GmarketSansLight.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\GmarketSansLight.otf"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\fonts\\GmarketSansMedium.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\GmarketSansMedium.otf"
+    },
+    {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\fonts\\NanumGothic.otf",
       "PackagePath": "staticwebassets\\assets\\fonts\\NanumGothic.otf"
     },
@@ -89,10 +101,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\joint.png"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\joint_picture.png",
-      "PackagePath": "staticwebassets\\assets\\images\\joint_picture.png"
-    },
-    {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\location_icon.png"
     },
@@ -157,10 +165,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\nerve.png"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\nerve_picture2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\nerve_picture2.png"
-    },
-    {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\new_main_contents.png",
       "PackagePath": "staticwebassets\\assets\\images\\new_main_contents.png"
     },
@@ -189,10 +193,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\retain.png"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\retain_picture.png",
-      "PackagePath": "staticwebassets\\assets\\images\\retain_picture.png"
-    },
-    {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\rotator_cuff_rupture.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\rotator_cuff_rupture.jpg"
     },
@@ -211,10 +211,6 @@
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spain.png",
       "PackagePath": "staticwebassets\\assets\\images\\spain.png"
-    },
-    {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spain_picture.png",
-      "PackagePath": "staticwebassets\\assets\\images\\spain_picture.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spinal_stenosis.jpg",
