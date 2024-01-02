@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nc+sIt9sSIec7lkN7qioCM6NaN/WnRyaJEtKbRDqfi8=",
+  "Hash": "CQ8RauafKn7DsSQVstIz5U01aztJpMwB+rvmWtCHWuw=",
   "Source": "NowonMedical",
   "BasePath": "_content/NowonMedical",
   "Mode": "Default",
@@ -302,12 +302,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\degenerative_arthritis.jpg"
     },
     {
-      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\dosu.png",
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\dosu_2.png",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
       "BasePath": "_content/NowonMedical",
-      "RelativePath": "assets/images/dosu.png",
+      "RelativePath": "assets/images/dosu_2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\dosu.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\dosu_2.png"
     },
     {
       "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\Ex-Body.png",
@@ -454,6 +454,44 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\Intro_background_menu1.png"
     },
     {
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\intro_background_menu2.png",
+      "SourceId": "NowonMedical",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
+      "BasePath": "_content/NowonMedical",
+      "RelativePath": "assets/images/intro_background_menu2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\intro_background_menu2.png"
+    },
+    {
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\intro_background_menu3.png",
+      "SourceId": "NowonMedical",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
+      "BasePath": "_content/NowonMedical",
+      "RelativePath": "assets/images/intro_background_menu3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\intro_background_menu3.png"
+    },
+    {
       "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\INTRODUCE_BACKGROUND.png",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
@@ -473,12 +511,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\INTRODUCE_BACKGROUND.png"
     },
     {
-      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\joint.png",
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\joint_2.png",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
       "BasePath": "_content/NowonMedical",
-      "RelativePath": "assets/images/joint.png",
+      "RelativePath": "assets/images/joint_2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -489,7 +527,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\joint.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\joint_2.png"
     },
     {
       "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",
@@ -777,12 +815,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\neck_disk.jpg"
     },
     {
-      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\nerve.png",
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\nerve_2.png",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
       "BasePath": "_content/NowonMedical",
-      "RelativePath": "assets/images/nerve.png",
+      "RelativePath": "assets/images/nerve_2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -793,7 +831,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\nerve.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\nerve_2.png"
     },
     {
       "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\new_main_contents.png",
@@ -910,12 +948,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\plus.png"
     },
     {
-      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\retain.png",
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\retain_2.png",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
       "BasePath": "_content/NowonMedical",
-      "RelativePath": "assets/images/retain.png",
+      "RelativePath": "assets/images/retain_2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -926,7 +964,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\retain.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\retain_2.png"
     },
     {
       "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\rotator_cuff_rupture.jpg",
@@ -1005,12 +1043,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\shock.png"
     },
     {
-      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spain.png",
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\shock_2.png",
       "SourceId": "NowonMedical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
       "BasePath": "_content/NowonMedical",
-      "RelativePath": "assets/images/spain.png",
+      "RelativePath": "assets/images/shock_2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1021,7 +1059,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\spain.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\shock_2.png"
     },
     {
       "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spinal_stenosis.jpg",
@@ -1041,6 +1079,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\spinal_stenosis.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spine_2.png",
+      "SourceId": "NowonMedical",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\",
+      "BasePath": "_content/NowonMedical",
+      "RelativePath": "assets/images/spine_2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\spine_2.png"
     },
     {
       "Identity": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\tennis_elbow.jpg",

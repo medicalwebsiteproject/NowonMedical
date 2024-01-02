@@ -73,8 +73,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\degenerative_arthritis.jpg"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\dosu.png",
-      "PackagePath": "staticwebassets\\assets\\images\\dosu.png"
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\dosu_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dosu_2.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\footer_background.jpg",
@@ -97,8 +97,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\intro_background.png"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\joint.png",
-      "PackagePath": "staticwebassets\\assets\\images\\joint.png"
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\intro_background_menu2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\intro_background_menu2.png"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\intro_background_menu3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\intro_background_menu3.png"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\joint_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\joint_2.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\location_icon.png",
@@ -161,8 +169,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\neck_disk.jpg"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\nerve.png",
-      "PackagePath": "staticwebassets\\assets\\images\\nerve.png"
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\nerve_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\nerve_2.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\new_main_contents.png",
@@ -189,8 +197,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\plus.png"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\retain.png",
-      "PackagePath": "staticwebassets\\assets\\images\\retain.png"
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\retain_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\retain_2.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\rotator_cuff_rupture.jpg",
@@ -209,12 +217,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\shock.png"
     },
     {
-      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spain.png",
-      "PackagePath": "staticwebassets\\assets\\images\\spain.png"
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\shock_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shock_2.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spinal_stenosis.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\spinal_stenosis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\spine_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\spine_2.png"
     },
     {
       "Id": "C:\\Users\\skyho\\source\\Repos1\\NowonMedical\\wwwroot\\assets\\images\\tennis_elbow.jpg",

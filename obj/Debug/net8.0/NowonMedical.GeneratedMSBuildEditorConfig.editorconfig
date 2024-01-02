@@ -18,16 +18,64 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\skyho\source\Repos1\NowonMedical
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/skyho/source/Repos1/NowonMedical/Views/Index/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW5kZXguY3NodG1s
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Clinic/Dosu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXERvc3UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skyho/source/Repos1/NowonMedical/Views/Index/Introduce.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW50cm9kdWNlLmNzaHRtbA==
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Clinic/Joint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXEpvaW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skyho/source/Repos1/NowonMedical/Views/Index/Test.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcVGVzdC5jc2h0bWw=
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Clinic/Nerve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXE5lcnZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Clinic/Retain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXFJldGFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Clinic/Shock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXFNob2NrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Clinic/Spine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXFNwaW5lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Community/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XE5ld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Community/Notice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XE5vdGljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Community/Review.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XFJldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Intro/Cover.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9cQ292ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Intro/Figure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9cRmlndXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Intro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Intro/Path.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9cUGF0aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Intro/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9cVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyho/source/Repos1/NowonMedical/Views/Intro/Time.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9cVGltZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/skyho/source/Repos1/NowonMedical/Views/Shared/Error.cshtml]

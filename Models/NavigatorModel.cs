@@ -17,25 +17,25 @@ namespace NowonMedical.Models
         public NavigatorModel(int TopMenuIdx, int SubMenuIdx) 
         {
             Navigator["병원 소개"] = [
-                new NavigatorPath { Name = "병원 소개", Path = "/intro" },
-                new NavigatorPath { Name = "의료진 소개", Path = "/figure" },
-                new NavigatorPath { Name = "오시는 길", Path = "/path" },
-                new NavigatorPath { Name = "진료시간표", Path = "/time" }
+                new NavigatorPath { Name = "병원 소개", Path = "/Cover" },
+                new NavigatorPath { Name = "의료진 소개", Path = "/Figure" },
+                new NavigatorPath { Name = "오시는 길", Path = "/Path" },
+                new NavigatorPath { Name = "진료시간표", Path = "/Time" }
             ];
 
             Navigator["진료 안내"] = [
-                new NavigatorPath { Name = "척추클리닉", Path = "/spinal_clinic" },
-                new NavigatorPath { Name = "관절클리닉", Path = "/joint_clinic" },
-                new NavigatorPath { Name = "신경통증클리닉", Path = "/nerve_pain_clinic" },
-                new NavigatorPath { Name = "도수치료", Path = "/manual_therapy" },
-                new NavigatorPath { Name = "체외충격파", Path = "/shock_wave_cure" },
-                new NavigatorPath { Name = "재활치료", Path = "/rehabilitation" }
+                new NavigatorPath { Name = "척추클리닉", Path = "/Spine" },
+                new NavigatorPath { Name = "관절클리닉", Path = "/Joint" },
+                new NavigatorPath { Name = "신경통증클리닉", Path = "/Nerve" },
+                new NavigatorPath { Name = "도수치료", Path = "/Dosu" },
+                new NavigatorPath { Name = "체외충격파", Path = "/Shock" },
+                new NavigatorPath { Name = "재활치료", Path = "/Retain" }
             ];
 
             Navigator["커뮤니티"] = [
-                new NavigatorPath { Name = "공지사항", Path = "/notice" },
-                new NavigatorPath { Name = "진료후기", Path = "/review" },
-                new NavigatorPath { Name = "보도자료", Path = "/news" }
+                new NavigatorPath { Name = "공지사항", Path = "/Notice" },
+                new NavigatorPath { Name = "진료후기", Path = "/Review" },
+                new NavigatorPath { Name = "보도자료", Path = "/News" }
             ];
 
             this.TopMenuIdx = TopMenuIdx; 

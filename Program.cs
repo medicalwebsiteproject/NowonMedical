@@ -22,10 +22,18 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Index}/{action=Index}");
+    pattern: "{controller=Intro}/{action=Index}");
 
 app.MapControllerRoute(
 	name: "test",
-	pattern: "{controller=Index}/{action=Test}");
+	pattern: "{controller=Intro}/{action=Test}");
+
+app.MapControllerRoute(
+    name: "clinic",
+    pattern: "{controller=Clinic}/{action=Spine}");
+app.MapControllerRoute(
+    name: "community",
+    pattern: "{controller=Community}/{action=Notice}");
+
 
 app.Run();
