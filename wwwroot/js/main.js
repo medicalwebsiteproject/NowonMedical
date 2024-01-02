@@ -1,6 +1,60 @@
-﻿
-const menu_select = document.querySelectorAll("div.equip_menu>div");
-var test1 = document.getElementById("ex-body");
+﻿const menu_select = document.querySelectorAll("div.equip_menu > div");
+const title = document.querySelectorAll("div.equip_content div.equip_explain p.title");
+const subtitle = document.querySelectorAll("div.equip_content div.equip_explain p.subtitle");
+const content = document.querySelectorAll("div.equip_content div.equip_explain pre.equip-content");
+const image = document.getElementById("equip_image");
+const sources = [
+    "../assets/images/Ex-Body.png",
+    "../assets/images/C-ARM.png",
+    "../assets/images/ZEUSWAVE.png"
+];
+
+const addClass = (idx, name) => {
+    title[idx].classList.add(name);
+    subtitle[idx].classList.add(name);
+    content[idx].classList.add(name);
+    image.src = sources[idx];
+}
+
+const removeClass = (idx, name) => {
+    title[idx].classList.remove(name);
+    subtitle[idx].classList.remove(name);
+    content[idx].classList.remove(name);
+}
+
+const isContainClass = (idx, name) => {
+    return title[idx].classList.contains(name) &&
+        subtitle[idx].classList.contains(name) &&
+        content[idx].classList.contains(name);
+}
+
+menu_select.forEach((menu, idx) => {
+    const menuClass = menu.classList;
+
+    menu.addEventListener("mouseover", () => {
+        const shows = document.querySelectorAll("div.equip_content div.equip_explain .show");
+        const open = document.querySelector("div.equip_menu div.menu-item.open");
+        if (menuClass.contains("open")) {
+            return;
+        }
+
+        open.classList.remove("open");
+
+        shows.forEach(show => {
+            show.classList.remove("show");
+        });
+
+        menuClass.add("open");
+
+        if (isContainClass(idx, "show")) {
+            return;
+        }
+
+        addClass(idx, "show");
+    });
+});
+
+/*var test1 = document.getElementById("ex-body");
 var test2 = document.getElementById("c-arm");
 var test3 = document.getElementById("zeus");
 var title = document.getElementById("title");
@@ -76,4 +130,4 @@ menu_select[2].addEventListener("mouseover", () => {
 });
 menu_select[2].addEventListener("mouseout", () => {
     test3.style.color = "black";
-});
+});*/

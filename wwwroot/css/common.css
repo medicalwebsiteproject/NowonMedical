@@ -79,17 +79,21 @@ h1 {
     line-height: 50px;
     font-weight : bold;
 }
-#ex-body {
+
+div.equip_menu div.menu-item {
+    color: black;
+    background-color: white;
+}
+
+div.equip_menu div.menu-item.open {
+    background-color: gray;
+    color: white;
+}
+
+div.equip_menu div.menu-item:hover {
     cursor: pointer;
 }
-#c-arm {
-    cursor: pointer;
-    color : black;
-}
-#zeus {
-    cursor: pointer;
-    color : black;
-}
+
 .equip_menu div{
     display : inline-block;
     width :100%;
@@ -97,60 +101,75 @@ h1 {
     font-weight : 500;
     margin : 0;
 }
+
+div.equip_content {
+    display: flex;
+}
+
 .equip_picture {
     display: inline-block;
-    float: left;
-    text-align: center;
     background-color: #D9D9D9;
     width: 450px;
     height: 450px;
     margin: 0px 30px 0px 30px;
     border-radius: 50%;
     line-height : 475px;
+    text-align: center;
 }
-.equip_picture img {
+
+div.equip_picture img {
     vertical-align: middle;
     width: 325px;
     height: 325px;
 }
-.equip_explain {
+
+div.equip_explain {
     display: inline-block;
-    float : left;
-    text-align: left;
     padding: 0px 0px 0px 20px;
     border-bottom : #D9D9D9;
+    width: 510px;
 }
-.equip_explain #title{
+
+div.equip_explain p.title {
+    display: none;
     border-bottom : #D9D9D9;
     padding : 0px 0px 20px 0px;
     font-size : 35px;
     font-weight : 900;
-    
 }
-.equip_explain #subtitle {
-    font-size : 18pt;
-}
-.equip_explain #explain1 {
+
+div.equip_explain p.title.show {
     display: block;
-    font-size: 21px;
-    padding: 30px 0px 0px 0px;
 }
-.equip_explain #explain2 {
+
+.equip_explain p.subtitle {
+    font-size : 18pt;
+    padding: 0px;
+    margin: 0px;
     display: none;
-    font-size: 21px;
-    padding: 30px 0px 0px 0px;
 }
-.equip_explain #explain3 {
+
+.equip_explain p.subtitle.show {
+    display: block;
+}
+
+div.equip_explain .equip-content {
     display: none;
-    font-size: 20px;
+    margin: 0px;
+    font-family: "Noto Sans KR";
     padding: 30px 0px 0px 0px;
+    white-space: pre-line;
+}
+
+div.equip_explain .equip-content.show {
+    display: block;
 }
 
 .menu_list{
-    margin : 0 auto;
-    text-align :center;
-    width:1160px;
+    margin: 0 auto;
+    width: 1160px;
 }
+
 .menu_list p {
     font-size: 35pt;
     font-weight: bold;
@@ -158,8 +177,55 @@ h1 {
     margin: 200px auto 5px auto;
 }
 
+div.menu_list a.clinic-item {
+    display: inline-block;
+    width: 380px;
+    height: 300px;
+}
 
-#top_1 {
+div.menu_list a.clinic-item img {
+    object-fit: cover;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+div.menu_list a.clinic-item div.item-contents {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.menu_list a.clinic-item div.item-contents span {
+    color: white;
+    font-weight : 900;
+    font-family: "Noto Sans KR";
+    font-size: 12pt;  
+}
+
+div.menu_list a.clinic-item:hover {
+    transform : scale(1.03);
+    transition : .5s;
+}
+
+a.clinic-item div.item-contents > span::before {
+    content: "+";
+    position: relative;
+    top: -3px;
+    display: inline-block;
+    font-size: 10pt;
+    border-radius: 6em;
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 10px;
+}
+
+/*#top_1 {
     display: inline-block;
     text-align: center;
     background: url("../assets/images/spine_2.png") no-repeat;
@@ -243,7 +309,6 @@ h1 {
     transform: scale(1.03);
     transition: .5s;
 }
-
 .sub {
     float: right;
     text-align: left;
@@ -251,25 +316,7 @@ h1 {
     float: none;
     margin-left: auto;
     margin-right: auto;
-}
-.plus {
-    display: inline-block;
-    color: white;
-    font-family: "Noto Sans KR";
-    font-size: 10pt;
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    border: 1px solid white;
-    text-align: center;
-    line-height: 10px;
-}
-.sub #detail {
-    color: white;
-    font-weight : 900;
-    font-family: "Noto Sans KR";
-    font-size: 12pt;  
-}
+}*/
 .slogen {
     margin-left: auto;
     margin-right: auto;
@@ -871,7 +918,7 @@ div.banner-box div.banner-select-box div.select-box > div span.origin-item {
 }
 
 div.banner-box div.banner-select-box div.select-box div.options {
-    width: inherit;
+    background-color: white;
     position: relative;
     left: -1px;
     border: 1px solid gray;

@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
@@ -22,18 +23,19 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Intro}/{action=Index}");
+    pattern: "{controller=Index}");
 
 app.MapControllerRoute(
-	name: "test",
-	pattern: "{controller=Intro}/{action=Test}");
+    name: "intro",
+    pattern: "{controller=Intro}");
 
 app.MapControllerRoute(
     name: "clinic",
-    pattern: "{controller=Clinic}/{action=Spine}");
+    pattern: "{controller=Clinic}");
+
 app.MapControllerRoute(
     name: "community",
-    pattern: "{controller=Community}/{action=Notice}");
+    pattern: "{controller=Community}");
 
 
 app.Run();
