@@ -11,7 +11,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(1, 0);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-            return View(navigator);
+            ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
 
         [Route("/clinic/joint")]
@@ -19,7 +21,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(1, 1);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
 
         [Route("/clinic/nerve")]
@@ -27,7 +31,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(1, 2);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
 
         [Route("/clinic/therapy")]
@@ -35,7 +41,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(1, 3);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
 
         [Route("/clinic/wave")]
@@ -43,7 +51,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(1, 4);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
 
         [Route("/clinic/retain")]
@@ -51,7 +61,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(1, 5);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
     }
 }

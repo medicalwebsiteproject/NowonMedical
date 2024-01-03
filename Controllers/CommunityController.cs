@@ -11,7 +11,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(2, 0);
             ViewData["banner_url"] = "../assets/images/intro_background_menu3.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
 
         [Route("/community/review")]
@@ -19,7 +21,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(2, 1);
             ViewData["banner_url"] = "../assets/images/intro_background_menu3.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
 
         [Route("/community/news")]
@@ -27,7 +31,9 @@ namespace NowonMedical.Controllers
         {
             NavigatorModel navigator = new NavigatorModel(2, 2);
             ViewData["banner_url"] = "../assets/images/intro_background_menu3.png";
-            return View(navigator);
+			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+
+			return View(navigator);
         }
     }
 }
