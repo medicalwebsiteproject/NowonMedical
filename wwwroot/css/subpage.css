@@ -7,3 +7,20 @@
     background: url("../assets/images/INTRODUCE_BACKGROUND.png") no-repeat top center;
     background-size : cover;
 }
+.main_contents {
+    text-align: center;
+    vertical-align: top;
+    background: url("../assets//images/time_contents.png") no-repeat top center;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    height : 1660px;
+    padding : 300px 0px 0px 0px; 
+    font-family : GmarketSansBold;
+}
+@font-face {
+    font-family: GmarketSansBold;
+    src: url('../assets/fonts/GmarketSansBold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
