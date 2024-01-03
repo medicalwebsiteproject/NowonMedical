@@ -7,7 +7,11 @@
     background: url("../assets/images/INTRODUCE_BACKGROUND.png") no-repeat top center;
     background-size : cover;
 }
-.main_contents {
+.main_contents_1 {
+    text-align: center;
+    vertical-align: top;
+}
+.main_contents_2 {
     text-align: center;
     vertical-align: top;
     background: url("../assets//images/time_contents.png") no-repeat top center;
