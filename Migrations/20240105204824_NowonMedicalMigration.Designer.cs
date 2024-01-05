@@ -12,7 +12,7 @@ using NowonMedical.Context;
 namespace NowonMedical.Migrations
 {
     [DbContext(typeof(NowonMedicalContext))]
-    [Migration("20240105194127_NowonMedicalMigration")]
+    [Migration("20240105204824_NowonMedicalMigration")]
     partial class NowonMedicalMigration
     {
         /// <inheritdoc />
@@ -78,9 +78,6 @@ namespace NowonMedical.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Created")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("LastUpdated")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")

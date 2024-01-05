@@ -10,6 +10,7 @@ namespace NowonMedical.Controllers
 
     public class CommunityController : Controller
     {
+
         public NowonMedicalContext context { get; set; }
 
         public CommunityController(NowonMedicalContext context)
@@ -19,17 +20,44 @@ namespace NowonMedical.Controllers
 
         [Route("/community/{boardType}/{page?}")]
         [HttpGet]
-        public async Task<IActionResult> Index(string boardType, int? page)
+        public IActionResult Index(string boardType, int? page)
         {
-            NavigatorModel navigator = new NavigatorModel(2, 0);
             ViewData["banner_url"] = "../assets/images/intro_background_menu3.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-            var boards = from board in context.communityBoards
-                        where board.Type == boardType
-                        select board;
+            int maxCount = context.communityBoards.Where(board => board.Type == boardType).Count();
 
-            return View(navigator);
+            if(maxCount <= 20)
+            {
+                page = 0;
+            }
+
+            if(page == null || page < 1)
+            {
+                page = 1;
+            }
+
+            ViewBag.Boards = context.communityBoards.FromSql($"SELECT * FROM dbo.CommunityBoardTbl WHERE Type = {boardType} ORDER BY BoardId OFFSET {(page - 1) * 20} ROWS FETCH NEXT 20 ROWS ONLY").ToList();
+            ViewBag.MaxPage = Math.Round((double)(maxCount / 20));
+
+            int navigatorIdx = 0;
+
+            if(boardType.ToLower() == "review")
+            {
+                ViewBag.Title = "진료후기";
+                navigatorIdx = 1;
+            } else if(boardType.ToLower() == "news")
+            {
+                ViewBag.Title = "보도자료";
+                navigatorIdx = 2;
+            } else
+            {
+                ViewBag.Title = "공지사항";
+            }
+
+			NavigatorModel navigator = new NavigatorModel(2, navigatorIdx);
+
+			return View(navigator);
         }
     }
 }

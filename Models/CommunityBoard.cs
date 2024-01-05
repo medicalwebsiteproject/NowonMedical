@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NowonMedical.Models
@@ -22,6 +23,7 @@ namespace NowonMedical.Models
         public string Type { get; set; }
 
         [Required]
+        [DefaultValue(true)]
         public DateTime Created { get; set; } = DateTime.Now;
 
         public IList<BoardMedia>? Media { get; }
