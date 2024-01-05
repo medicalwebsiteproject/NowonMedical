@@ -1,8 +1,15 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using NowonMedical.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+builder.Services.AddDbContext<NowonMedicalContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MsSql-Linux-Docker")));
 
 var app = builder.Build();
 
@@ -35,7 +42,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "community",
-    pattern: "{controller=Community}");
+    pattern: "{controller=Community}/{action=Index}/{boardType=Board:regex((News|Review|Notice))}");
 
 
 app.Run();

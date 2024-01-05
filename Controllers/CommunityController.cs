@@ -1,39 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
+using Microsoft.EntityFrameworkCore;
+using NowonMedical.Context;
 using NowonMedical.Models;
+using System.Data;
 
 namespace NowonMedical.Controllers
 {
+
     public class CommunityController : Controller
     {
-        [Route("/community/notice")]
-        public IActionResult Notice()
+        public NowonMedicalContext context { get; set; }
+
+        public CommunityController(NowonMedicalContext context)
+        {
+            this.context = context;
+        }
+
+        [Route("/community/{boardType}/{page?}")]
+        [HttpGet]
+        public async Task<IActionResult> Index(string boardType, int? page)
         {
             NavigatorModel navigator = new NavigatorModel(2, 0);
             ViewData["banner_url"] = "../assets/images/intro_background_menu3.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
-        }
+            var boards = from board in context.communityBoards
+                        where board.Type == boardType
+                        select board;
 
-        [Route("/community/review")]
-        public IActionResult Review()
-        {
-            NavigatorModel navigator = new NavigatorModel(2, 1);
-            ViewData["banner_url"] = "../assets/images/intro_background_menu3.png";
-			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
-
-			return View(navigator);
-        }
-
-        [Route("/community/news")]
-        public IActionResult News()
-        {
-            NavigatorModel navigator = new NavigatorModel(2, 2);
-            ViewData["banner_url"] = "../assets/images/intro_background_menu3.png";
-			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
-
-			return View(navigator);
+            return View(navigator);
         }
     }
 }

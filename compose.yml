@@ -1,0 +1,38 @@
+﻿version: '1.0'
+services:
+  app:
+    build: 
+      context: .
+    depends_on:
+      - mssql-db
+    volumes:
+      - ./wwwroot:/app/wwwroot
+      - ./Controllers:/app/Controllers
+      - ./Models:/app/Models
+      - ./Views:/app/Views
+      - ./Context:/app/Context
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080
+    develop:
+      watch:
+        - path: ./appsettings.json
+          target: /app/appsettings.json
+          action: sync
+
+  mssql-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    user: root
+    container_name: mssql
+    hostname: mssql
+    ports:
+      - 1433:1433
+    volumes:
+      - ./MS_SQL:/var/opt/mssql/data
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: password123!
+ 
+volumes:
+  MS_SQL:
