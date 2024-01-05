@@ -925,6 +925,7 @@ div.banner-box div.banner-select-box div.select-box div.options {
     left: -1px;
     border: 1px solid gray;
     display: none;
+    z-index: 9999;
 }
 
 div.banner-box div.banner-select-box div.select-box.open div.options {
