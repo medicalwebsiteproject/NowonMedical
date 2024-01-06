@@ -9,41 +9,41 @@ namespace NowonMedical.Controllers
         [Route("/intro/cover")]
         public IActionResult Cover()
         {
-            NavigatorModel navigator = new NavigatorModel(0, 0);
+			ViewBag.Navigator = new NavigatorModel(0, 0);
             ViewData["banner_url"] = "../assets/images/intro_background_menu1.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
 
         [Route("/intro/figure")]
         public IActionResult Figure()
         {
-            NavigatorModel navigator = new NavigatorModel(0, 1);
+			ViewBag.Navigator = new NavigatorModel(0, 1);
             ViewData["banner_url"] = "../assets/images/intro_background_menu1.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
 
         [Route("/intro/path")]
         public IActionResult Path()
         {
-            NavigatorModel navigator = new NavigatorModel(0, 2);
+			ViewBag.Navigator = new NavigatorModel(0, 2);
             ViewData["banner_url"] = "../assets/images/intro_background_menu1.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
 
         [Route("/intro/time")]
         public IActionResult Time()
         {
-            NavigatorModel navigator = new NavigatorModel(0, 3);
+			ViewBag.Navigator = new NavigatorModel(0, 3);
             ViewData["banner_url"] = "../assets/images/intro_background_menu1.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
     }
 }

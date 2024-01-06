@@ -1,23 +1,23 @@
 ﻿@{
 	Layout = "_Layout";
+	var Navigator = (NavigatorModel) ViewBag.Navigator;
 }
-@model NavigatorModel
 <div class="banner-box">
 	<img src="@ViewData["main_banner_url"]" class="banner-background" />
 	<div class="banner-select-box">
 		<a href="/" id="back-home"></a>
 		<div class="select-box" id="topSelect">
 			<div class="banner-top-nav">
-				<span class="origin-item">@Model.Navigator.Keys.ToList()[Model.TopMenuIdx]</span>
+				<span class="origin-item">@Navigator.Navigators.Keys.ToList()[Navigator.TopMenuIdx]</span>
 				<span class="dropdown-icon"></span>
 			</div>
 			<div class="options">
 				@{
-					List<string> topMenus = Model.Navigator.Keys.ToList();
-					List<NavigatorPath> subMenus = Model.Navigator[topMenus[Model.TopMenuIdx]].ToList();
+					List<string> topMenus = Navigator.Navigators.Keys.ToList();
+					List<NavigatorPath> subMenus = Navigator.Navigators[topMenus[Navigator.TopMenuIdx]].ToList();
 					for (int topMenuIdx = 0; topMenuIdx < topMenus.Count; topMenuIdx++)
 					{
-						<div class="option @(topMenuIdx == Model.TopMenuIdx ? " selected" : "")" data-route=@Model.Navigator[topMenus[topMenuIdx]].ToList()[0].Path><span>@topMenus[topMenuIdx]</span></div>
+						<div class="option @(topMenuIdx == Navigator.TopMenuIdx ? " selected" : "")" data-route=@Navigator.Navigators[topMenus[topMenuIdx]].ToList()[0].Path><span>@topMenus[topMenuIdx]</span></div>
 					}
 				}
 			</div>
@@ -25,14 +25,14 @@
 		<span class="select-box-border"></span>
 		<div class="select-box" id="subSelect">
 			<div class="banner-sub-nav">
-				<span class="origin-item">@subMenus[Model.SubMenuIdx].Name</span>
+				<span class="origin-item">@subMenus[Navigator.SubMenuIdx].Name</span>
 				<span class="dropdown-icon"></span>
 			</div>
 			<div class="options">
 				@{
 					for (int subMenuIdx = 0; subMenuIdx < subMenus.Count; subMenuIdx++)
 					{
-						<div class="option  @(subMenuIdx == Model.SubMenuIdx ? " selected" : "")" data-route=@subMenus[subMenuIdx].Path><span>@subMenus[subMenuIdx].Name</span></div>
+						<div class="option  @(subMenuIdx == Navigator.SubMenuIdx ? " selected" : "")" data-route=@subMenus[subMenuIdx].Path><span>@subMenus[subMenuIdx].Name</span></div>
 					}
 				}
 			</div>
