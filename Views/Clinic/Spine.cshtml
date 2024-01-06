@@ -1,5 +1,57 @@
-﻿@{
-}
-<h1>
-    Here is Spine
-</h1>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/subpage.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="select_box">
+        <div class="inner align-text center">
+            <ul>
+                <li><span class="select show">거북목증후군</span> </li>
+                <li><span class="select">목디스크</span> </li>
+                <li><span class="select">척추관협착증</span> </li>
+                <li><span class="select">척추측만증</span> </li>
+                <li><span class="select">허리디스크</span> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="img_box">
+        <img id="contents_image" src="~/assets/images/spine_contents_1.png" />
+    </div>
+
+    <script>
+        const select_option = document.querySelectorAll("div.select_box div.inner ul li span.select");
+        const image = document.getElementById("contents_image");
+
+        const test = document.querySelector("div.select_box div.inner ul li span.select.show");
+
+        const source = [
+            "../assets/images/spine_contents_1.png",
+            "../assets/images/spine_contents_2.png",
+            "../assets/images/spine_contents_3.png",
+            "../assets/images/spine_contents_4.png",
+            "../assets/images/spine_contents_5.png"
+        ];
+
+        const showImage = (idx) => {
+            image.src = source[idx];
+        };
+
+        select_option.forEach((selection, idx) => {
+            const selectClass = selection.classList;
+            selection.addEventListener("click", () => {
+                console.log(test);
+                const show = document.querySelector("div.select_box div.inner ul li span.select.show");
+                if (selectClass.contains("show")) {
+                    return;
+                }
+                show.classList.remove("show");
+
+                selectClass.add("show");
+
+                showImage(idx);
+            });
+        });
+    </script>
+</body>
+</html>

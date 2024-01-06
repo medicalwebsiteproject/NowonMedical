@@ -87,6 +87,7 @@ div.equip_menu div.menu-item {
 
 div.equip_menu div.menu-item.open {
     background-color: gray;
+    border-radius : 75%;
     color: white;
 }
 

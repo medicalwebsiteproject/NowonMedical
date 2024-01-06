@@ -9,61 +9,61 @@ namespace NowonMedical.Controllers
         [Route("/clinic/spine")]
         public IActionResult Spine()
         {
-            NavigatorModel navigator = new NavigatorModel(1, 0);
+			ViewBag.Navigator = new NavigatorModel(1, 0);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
             ViewData["main_banner_url"] = "../assets/images/intro_background.png";
-
-			return View(navigator);
+			
+			return View();
         }
 
         [Route("/clinic/joint")]
         public IActionResult Joint()
         {
-            NavigatorModel navigator = new NavigatorModel(1, 1);
+			ViewBag.Navigator = new NavigatorModel(1, 1);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
 
         [Route("/clinic/nerve")]
         public IActionResult Nerve()
         {
-            NavigatorModel navigator = new NavigatorModel(1, 2);
+			ViewBag.Navigator = new NavigatorModel(1, 2);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
 
         [Route("/clinic/therapy")]
         public IActionResult therapy()
         {
-            NavigatorModel navigator = new NavigatorModel(1, 3);
+			ViewBag.Navigator = new NavigatorModel(1, 3);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
 
         [Route("/clinic/wave")]
         public IActionResult Wave()
         {
-            NavigatorModel navigator = new NavigatorModel(1, 4);
+			ViewBag.Navigator = new NavigatorModel(1, 4);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
 
         [Route("/clinic/retain")]
         public IActionResult Retain()
         {
-            NavigatorModel navigator = new NavigatorModel(1, 5);
+			ViewBag.Navigator = new NavigatorModel(1, 5);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
 			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
 
-			return View(navigator);
+			return View();
         }
     }
 }

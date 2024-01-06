@@ -22,6 +22,66 @@
     padding : 300px 0px 0px 0px; 
     font-family : GmarketSansBold;
 }
+.select_box {
+    width: max-content;
+    height: 50px;
+    margin: 25px auto 50px auto;
+}
+
+.inner li {
+    float :inline-start;
+    list-style: none;
+}
+.inner ul {
+    margin : 0;
+}
+.inner {
+    height: 50px;
+    text-align: center;
+
+}
+
+.inner span{
+    color : black;
+    font-family : GmarketSansBold;
+    font-size : 17pt;
+    padding : 15px 25px;
+    position : relative;
+    display : block;
+    text-decoration : none;
+}
+.inner:hover{
+    cursor : pointer;
+}
+
+.inner span::after{
+    position : absolute;
+    top : 100%;
+    left : 0;
+    width : 100%;
+    height : 1px;
+    background-color : gray;
+    content : '';
+    opacity : 0;
+    transition : height 0.3s, opacity 0.3s, transform 0.3s;
+    transform: translateY(-10px);
+}
+.inner span:hover::after, .inner span:focus::after{
+    height : 5px;
+    opacity : 1;
+    transform: translateY(0px);
+}
+
+.img_box{
+    text-align : center;
+    margin : 0 auto 0 auto;
+}
+.img_box img{
+    vertical-align :bottom;
+}
+
+
+
 @font-face {
     font-family: GmarketSansBold;
     src: url('../assets/fonts/GmarketSansBold.otf');

@@ -16,12 +16,6 @@ const addClass = (idx, name) => {
     image.src = sources[idx];
 }
 
-const removeClass = (idx, name) => {
-    title[idx].classList.remove(name);
-    subtitle[idx].classList.remove(name);
-    content[idx].classList.remove(name);
-}
-
 const isContainClass = (idx, name) => {
     return title[idx].classList.contains(name) &&
         subtitle[idx].classList.contains(name) &&
