@@ -369,6 +369,7 @@ a {
 main {
     position: relative;
     top: 190px;
+    height: 100%;
 }
 
 header {
@@ -962,6 +963,49 @@ div.banner-box img.sub-banner-box {
     width: 800px;
     height: 150px;
     object-fit: cover;
+}
+
+table.board-table {
+    width: 1300px;
+    margin: 100px auto;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    border-top: 3px solid gray;
+    font-size: 12pt;
+}
+
+table.board-table thead {
+    border-bottom: 1px solid gray;
+}
+
+table.board-table thead tr th {
+    padding: 10px 0px;
+    background-color: lightgray;
+}
+
+table.board-table tbody tr td {
+    padding: 7px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+table.board-table thead tr th:nth-of-type(1) {
+    width: 100px;
+}
+
+table.board-table thead tr th:nth-of-type(3) {
+    width: 100px;
+}
+
+table.board-table tbody tr td:nth-of-type(odd) {
+    text-align: center;
+}
+
+table.board-table a {
+    color: black;
+}
+
+table.board-table a:hover {
+    text-decoration: underline;
 }
 
 @keyframes zoomIn {

@@ -22,14 +22,7 @@ namespace NowonMedical.Models
 
         [Required]
         [DisplayFormat]
-        public string Type { 
-            get { 
-            
-            } 
-            set {
-                Type = value == "" ? "" : "";
-            } 
-        }
+        public string Type { get; set; }
 
         [Required]
         public DateTime Created { get; set; }

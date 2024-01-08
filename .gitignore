@@ -2,4 +2,5 @@
 bin/
 obj/
 Properties/
+MS_SQL/
 appsetting.json

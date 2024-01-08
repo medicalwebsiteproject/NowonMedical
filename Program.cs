@@ -10,6 +10,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddDbContext<NowonMedicalContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("MsSql-Linux-Docker")));
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizePage("/community/write", "Admin");
+});
 
 var app = builder.Build();
 

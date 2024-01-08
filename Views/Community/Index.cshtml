@@ -1,15 +1,38 @@
 ﻿@model IList<CommunityBoard>
 @{
 }
-<h1 class="community-title">@ViewBag.Title</h1>
-<table class="table table-striped table-hover">
+<table class="board-table">
+	<thead>
+		<tr>
+			<th>번 호</th>
+			<th>제 목</th>
+			<th>게 시 일</th>
+		</tr>
+	</thead>
 	<tbody>
-		@foreach (var board in Model)
+		@foreach(var board in Model)
 		{
 			<tr>
 				<td>@board.BoardId</td>
-				<td>@board.Title</td>
-				<td>@board.Created</td>
+				<td>
+					<a asp-action="Select" asp-route-BoardID="@board.BoardId">
+						@board.Title
+					</a>
+				</td>
+				<td>
+					@{
+						DateTime dt = DateTime.Now;
+						if(board.Created.Year == dt.Year &&
+							board.Created.Month == dt.Month &&
+							board.Created.Date == dt.Date)
+						{
+							<span>@board.Created.ToString("HH:mm")</span>
+						} else
+						{
+							<span>@board.Created.ToString("MM.dd")</span>
+						}
+					}
+				</td>
 			</tr>
 		}
 	</tbody>
