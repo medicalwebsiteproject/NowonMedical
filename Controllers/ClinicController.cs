@@ -11,7 +11,7 @@ namespace NowonMedical.Controllers
         {
 			ViewBag.Navigator = new NavigatorModel(1, 0);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-            ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+            ViewData["main_banner_url"] = "../assets/images/clinic_background.png";
 			
 			return View();
         }
@@ -21,7 +21,7 @@ namespace NowonMedical.Controllers
         {
 			ViewBag.Navigator = new NavigatorModel(1, 1);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+			ViewData["main_banner_url"] = "../assets/images/clinic_background.png";
 
 			return View();
         }
@@ -31,7 +31,7 @@ namespace NowonMedical.Controllers
         {
 			ViewBag.Navigator = new NavigatorModel(1, 2);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+			ViewData["main_banner_url"] = "../assets/images/clinic_background.png";
 
 			return View();
         }
@@ -41,7 +41,7 @@ namespace NowonMedical.Controllers
         {
 			ViewBag.Navigator = new NavigatorModel(1, 3);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+			ViewData["main_banner_url"] = "../assets/images/clinic_background.png";
 
 			return View();
         }
@@ -51,7 +51,7 @@ namespace NowonMedical.Controllers
         {
 			ViewBag.Navigator = new NavigatorModel(1, 4);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+			ViewData["main_banner_url"] = "../assets/images/clinic_background.png";
 
 			return View();
         }
@@ -61,7 +61,7 @@ namespace NowonMedical.Controllers
         {
 			ViewBag.Navigator = new NavigatorModel(1, 5);
             ViewData["banner_url"] = "../assets/images/intro_background_menu2.png";
-			ViewData["main_banner_url"] = "../assets/images/intro_background.png";
+			ViewData["main_banner_url"] = "../assets/images/clinic_background.png";
 
 			return View();
         }

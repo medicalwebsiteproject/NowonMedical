@@ -862,7 +862,7 @@ div.banner-box {
 
 div.banner-box img.banner-background {
     width: 100%;
-    height: 350px;
+    /*height: 350px;*/
 }
 
 div.banner-box div.banner-select-box {

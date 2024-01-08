@@ -63,6 +63,10 @@
     transition : height 0.3s, opacity 0.3s, transform 0.3s;
     transform: translateY(-10px);
 }
+.inner span.select.show::after {
+    height: 5px;
+    opacity: 1;
+}
 .inner span:hover::after, .inner span:focus::after{
     height : 5px;
     opacity : 1;
