@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Components.Forms.Mapping;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -20,11 +21,23 @@ namespace NowonMedical.Models
         public string Content { get; set; }
 
         [Required]
-        public string Type { get; set; }
+        [DisplayFormat]
+        public string Type { 
+            get { 
+            
+            } 
+            set {
+                Type = value == "" ? "" : "";
+            } 
+        }
 
         [Required]
-        [DefaultValue(true)]
-        public DateTime Created { get; set; } = DateTime.Now;
+        public DateTime Created { get; set; }
+
+        public CommunityBoard()
+        {
+            Created = DateTime.Now;
+        }
 
         public IList<BoardMedia>? Media { get; }
     }

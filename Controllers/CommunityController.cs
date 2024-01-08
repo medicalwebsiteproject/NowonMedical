@@ -37,7 +37,7 @@ namespace NowonMedical.Controllers
                 page = 1;
             }
 
-            ViewBag.Boards = context.communityBoards.FromSql($"SELECT * FROM dbo.CommunityBoardTbl WHERE Type = {boardType} ORDER BY BoardId OFFSET {(page - 1) * 20} ROWS FETCH NEXT 20 ROWS ONLY").ToList();
+            IList<CommunityBoard> boards = context.communityBoards.FromSql($"SELECT * FROM dbo.CommunityBoardTbl WHERE Type = {boardType} ORDER BY BoardId OFFSET {(page - 1) * 20} ROWS FETCH NEXT 20 ROWS ONLY").ToList();
             ViewBag.MaxPage = Math.Round((double)(maxCount / 20));
 
             int navigatorIdx = 0;
@@ -55,9 +55,9 @@ namespace NowonMedical.Controllers
                 ViewBag.Title = "공지사항";
             }
 
-			NavigatorModel navigator = new NavigatorModel(2, navigatorIdx);
+			ViewBag.Navigator = new NavigatorModel(2, navigatorIdx);
 
-			return View(navigator);
+			return View(boards);
         }
     }
 }
